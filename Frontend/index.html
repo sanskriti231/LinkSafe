@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link-Safe</title>
+</head>
+<body>
+    <h1>Save your important links in different categories.</h1>
+    <form action="post">
+        <input type="text" name="newEntry" pattern="([Hh][Tt][Tt][Pp][Ss]?:\/\/)?(?:(?:[a-zA-Z\u00a1-\uffff0-9]+-?)*[a-zA-Z\u00a1-\uffff0-9]+)(?:\.(?:[a-zA-Z\u00a1-\uffff0-9]+-?)*[a-zA-Z\u00a1-\uffff0-9]+)*(?:\.(?:[a-zA-Z\u00a1-\uffff]{2,}))(?::\d{2,5})?(?:\/[^\s]*)?" placeholder="Enter new link to save"><br>
+        <select name="category" id="category">
+            <option value="none">Select category</option>
+            <option value="op1">Web development resources</option>
+            <option value="op2">Add new category</option>
+        </select><br>
+        <input type="text" name="description" id="desc" placeholder="Enter a description"><br>
+        <input type="text" name = "tags" id="tags" placeholder="Enter tags"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
