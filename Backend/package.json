@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "Backend for linksafe project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "backend",
     "linksafe"
   ],
   "author": "Sanskriti Gupta",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
