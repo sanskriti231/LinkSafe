@@ -1,0 +1,11 @@
+{
+  "name": "linksafe",
+  "version": "1.0.0",
+  "description": "Organise your necessary links with Link-Safe in personalised categories. Quick search with keywords and tags.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/src/app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

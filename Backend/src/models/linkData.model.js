@@ -16,6 +16,12 @@ const linkDataSchema = Schema({
         type: String,
         trim: true,
     },
+    category: {
+        type: String,
+        enum: ["Work", "Personal", "Education", "Entertainment", "Other"],
+        trim: true,
+        default: "Other"
+    },
     description: {
         type: String,
         trim: true,
